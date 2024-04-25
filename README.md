@@ -128,6 +128,6 @@ We can represent this in java source code with `Short.reverseBytes(3879);`.
 While each strategy is quite primitive by itself, all of these method lay on top of each other to provide a fair wall of defense.
 
 A decompilation of these strategies in practice:
-![[decomp.png]]
+[![[[decomp.png]](https://raw.githubusercontent.com/ridglef/p/main/decomp.png)]](https://raw.githubusercontent.com/ridglef/p/main/decomp.png)
 
 All of these defenses still remain weak if you only focus on them itself.  Other transformations (namely flow obfuscation and nativefying the constant pool) will complement Short obfuscation greatly and significantly increase the difficulty of retrieving the shorts.
