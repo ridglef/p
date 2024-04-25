@@ -1,3 +1,5 @@
+# Short Obfuscation
+
 Obfuscation is the practice of obscuring code to be more confusing and unclear to a reverse engineer.  This allows developers to defend against unauthorized access to sensitive code.  The Java Compiler (javac) translates source code into a lower level set of instructions that can be run universally via the Java Virtual Machine (jvm).  We can use a disassembler to change the instructions in a classfile (compiled java file) for the purposes of obfuscation.  This write-up will provide a basic overview of some common obfuscation techniques for obscuring the values of shorts (2-byte numbers).
 
 #### Pushing A Short to the stack
